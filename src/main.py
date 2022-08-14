@@ -4,6 +4,7 @@ from curses.ascii import isalpha, isdigit
 from Generator import Generator
 import pyfiglet
 import inflect
+import pyperclip
 import sys
 
 
@@ -38,8 +39,11 @@ def main():
 
     os.chdir(os.path.abspath(os.path.join(os.getcwd(), os.pardir)))
 
+    # Copy the new password to clipboard
+    pyperclip.copy(password)
 
-    print(f"Your password has been written to {os.getcwd()} 🎉🎉🎉\n\n")
+
+    print(f"Your password has been written to {os.getcwd()} and copied to clipboard 🎉🎉🎉\n\n")
     print("If you don't like it simply execute main.py again since it's all 'random' 😉")
 
     # Write it to a text file 

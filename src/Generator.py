@@ -41,7 +41,8 @@ class Generator:
 
         # Start generating random symbols
         random_symbols = []
-        random.seed(9)
+        random.seed(random.random)
+
 
         for _ in range(self.length):
             random_symbol = random.choice(Generator.SYMBOLS)
@@ -49,7 +50,8 @@ class Generator:
 
         # Start generating random integers
         random_ints = []
-        random.seed(3)
+        random.seed(random.random)
+
 
         for _ in range(self.length):
             random_int = random.randint(0, 9)

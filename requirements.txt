@@ -1,2 +1,3 @@
 inflect
 pyfiglet
+pyperclip

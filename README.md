@@ -13,7 +13,7 @@ please cd into src and run `main.py` from there so unexpected things won't occur
 # Usage
 `python main.py`
 
-#
+# Compiling from source (only option)
 <br>
 `git clone --recursive https://github.com/UserDev987/RyPass.git`
 `cd RyPass`

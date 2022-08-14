@@ -1,7 +1,7 @@
 import os
 import re
 from curses.ascii import isalpha, isdigit
-from .Generator import Generator
+from Generator import Generator
 import pyfiglet
 import inflect
 import pyperclip

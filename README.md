@@ -2,7 +2,7 @@
 
 When main.py is executed, a folder called `gen_passwords` will be created if doesn't exist and will include all password instances
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  [Demo](https://www.youtube.com/watch?v=9eFLz7Ikal4)
 #### Description:
 That's a utility for generating complex passwords based on a given input.
 First of all, an instance of Generator class is required, and running the init class method to create an instance of this class

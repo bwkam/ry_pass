@@ -26,7 +26,7 @@ class Generator:
         
         # Start generating random letters
         random_letters = []
-        random.seed(5)
+        random.seed(random.random)
 
         for _ in range(self.length):
             case = random.choice(["upper", "lower"])

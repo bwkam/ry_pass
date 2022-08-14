@@ -9,7 +9,7 @@ import sys
 
 def main():
 
-    if len(sys.argv) != 1:
+    if len(sys.argv) != 1: #
         print("Usage: main.py")
         print("Too many command-line arguments")
         sys.exit()
